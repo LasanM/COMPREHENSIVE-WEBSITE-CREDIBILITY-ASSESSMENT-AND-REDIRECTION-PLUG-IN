@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "VTotal API",
+  "description": "Sample Extension to use VirusTotal API",
+  "version": "0.0.1",
+  "action": {
+    "default_icon": "default_icon.jpg",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "scripting",
+    "https://www.virustotal.com/" 
+  ],
+  "host_permissions": [
+    "https://www.virustotal.com/*"
+  ]
+}

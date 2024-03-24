@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Virus Total Scanner</title>
+  <script type="text/javascript" src="popup.js"></script>
+  <link rel="stylesheet" href="popup.css">
+
+</head>
+
+<body style="padding:0px 10px;text-align:center;width:350px;">
+  <h1 style="color:rgb(0, 0, 0);">Phishing Detector</h1>
+  <div class="container py-5">
+    <div class="row">
+
+      <!-- For demo purpose -->
+      <div class="col-lg-12 mx-auto mb-5 text-white text-center">
+        <h2 class="display-4">Safe/Unsafe Percentage</h2>
+        <blockquote id="activeTabTitle" style="background:hsl(43, 96%, 43%);padding:5px;"></blockquote>
+        <p><b>Determine Following status according to which are,:</b></p>
+        <pre><code id="activeTabResults"></code></pre>
+        <!-- END -->
+
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 style="color:rgb(238, 8, 8);">MALICIOUS</h2>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">
+                <h2 class="malicious"><sup class="small">%</sup>
+              </div>
+              </h2>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-6 mb-4">
+            <div class="bg-white rounded-lg p-5 shadow">
+              <h2 style="color:rgb(4, 9, 255);">SUSPICIOUS</h2>
+              <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                <div class="h2 font-weight-bold">
+                  <h2 class="suspicious"><sup class="small">%</sup>
+                </div>
+                </h2>
+              </div>
+
+              <div class="col-xl-3 col-lg-6 mb-4">
+                <div class="bg-white rounded-lg p-5 shadow">
+                  <h2 style="color:rgb(237, 106, 6);">UNDETECTED</h2>
+                  <div
+                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                    <div class="h2 font-weight-bold">
+                      <h2 class="undetect"><sup class="small">%</sup>
+                    </div>
+                    </h2>
+                  </div>
+
+                  <div class="col-xl-3 col-lg-6 mb-4">
+                    <div class="bg-white rounded-lg p-5 shadow">
+                      <h2 style="color:rgb(3, 52, 55);">HARMLESS</h2>
+                      <div
+                        class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                        <div class="h2 font-weight-bold">
+                          <h2 class="harm"><sup class="small">%</sup>
+                        </div>
+                        </h2>
+                      </div>
+
+
+                      <div class="col-xl-3 col-lg-6 mb-4">
+                        <div class="bg-white rounded-lg p-5 shadow">
+                          <h2 style="color:rgb(238, 0, 68);">TIME OUT</h2>
+                          <div
+                            class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">
+                              <h2 class="time"><sup class="small">%</sup>
+                            </div>
+                            </h2>
+                          </div>
+
+</body>
+
+</html>
